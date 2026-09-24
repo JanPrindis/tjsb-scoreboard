@@ -1,0 +1,66 @@
+/* --- MAIN BANNER --- */
+#main_banner {
+    layout: horizontal;
+    height: 5;
+    background: $panel;
+    margin-bottom: 1;
+    border-bottom: solid $accent;
+}
+
+.banner-team {
+    width: 1fr;
+    content-align: center middle;
+    text-style: bold;
+    color: white;
+    background: transparent;
+}
+
+#banner_center {
+    width: 1fr;
+    content-align: center middle;
+    background: $boost;
+    color: $warning;
+    text-style: bold;
+}
+
+/* --- CONTROLS LAYOUT --- */
+.controls-row {
+    layout: horizontal;
+    height: auto;
+    align: left middle;
+    margin-bottom: 1;
+}
+
+.section-title {
+    padding-left: 1;
+    padding-top: 1;
+    text-style: bold;
+    color: $text-muted;
+    width: 100%;
+}
+
+Button, Input, Select {
+    margin: 0 1;
+}
+
+.input-small {
+    width: 16;
+}
+
+.flex-input {
+    width: 1fr;
+}
+
+.inline-label {
+    content-align: center middle;
+    padding: 1 2;
+    color: $text-muted;
+}
+
+/* --- LOG --- */
+#log_window {
+    border: round $success;
+    height: 1fr;
+    margin: 0 1;
+    background: $surface;
+}

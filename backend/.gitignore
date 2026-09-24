@@ -1,0 +1,15 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# State
+scoreboard_state.json
+
+# DB
+roster.db
